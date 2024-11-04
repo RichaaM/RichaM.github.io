@@ -1,0 +1,23 @@
+sudo apt install rbenv
+rbenv init
+source ~/.bashrc
+git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
+rbenv install 3.1.2
+
+(put in bashrc)
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+source ~/.bashrc 
+
+rbenv global 3.1.2
+rbenv rehash
+ruby -v
+
+bundle install
+
+
+sudo gem install bundle
+sudo gem update --system 3.1.2
+gem update --system 3.3.3
+
+bundle exec jekyll serve    
