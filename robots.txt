@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ibrassow.github.io/sitemap.xml
+Sitemap: https://RichaM.github.io/sitemap.xml
