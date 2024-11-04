@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 permalink: /robots.txt
 ---
@@ -5,3 +6,9 @@ User-agent: *
 Disallow:
 
 Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
+=======
+User-agent: *
+Disallow:
+
+Sitemap: https://RichaM.github.io/sitemap.xml
+>>>>>>> 212ad0cc51e724434c3391c8425346266a4b0b49
